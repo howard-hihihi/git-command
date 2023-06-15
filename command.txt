@@ -9,7 +9,7 @@ git push 有設定預設值就可以只打 'git push'
 git clone <網址>  -----> 將遠端儲存庫複製到本地端
 --------------------------------------------------------
 
-git reset – “檔名” : 將指定的檔案從暫存區中取消暫存（unstage）
+git reset -- “檔名” : 將指定的檔案從暫存區中取消暫存（unstage）
 git checkout : 等同於 discard changes (捨棄變更)
 git reset --soft HEAD~1 : 會到前一個commit，用 git log 會發現前一次的 commit 會消失，這邊的數字代表要往幾個commit。
 --------------------------------------------------------
