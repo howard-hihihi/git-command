@@ -16,7 +16,7 @@ git checkout : 等同於 discard changes (捨棄變更)
 git reset --soft HEAD~1 : 會到前一個commit，用 git log 會發現前一次的 commit 會消失，這邊的數字代表要往幾個commit。
                           這個模式下的 reset，工作目錄跟暫存區的檔案都不會被丟掉，所以看起來就只有 HEAD 的移動而已。
                           也因此，Commit 拆出來的檔案會直接放在暫存區。
-git reset --hard HEAD~1 : 
+git reset --hard HEAD~1 : 在這個模式下，不管是工作目錄以及暫存區的檔案都會丟掉。
 ----------------------------------------------------------------------------------------------------------------
 
 ## conflicts
