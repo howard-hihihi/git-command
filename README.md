@@ -5,7 +5,7 @@ git add . / git add <檔名.副檔名>
 git commit -m"加入文字註記修改甚麼"
 git status
 git log
-git remote add <自訂的名稱> <網址>
+git remote add <自訂的名稱> <網址>\n
 git push -u <自訂的名稱> master   ---->  '-u'會將預設值設成<自訂的名稱>
 git push 有設定預設值就可以只打 'git push'
 git clone <網址>  -----> 將遠端儲存庫複製到本地端
